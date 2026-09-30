@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-strat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <linearGradient id="grad-arch" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891b2" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+    <linearGradient id="grad-people" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+    <linearGradient id="grad-sec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="grad-ai" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 12px; }
+    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #e6edf3; }
+    .pct { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; font-weight: 600; fill: #8b949e; text-anchor: end; }
+    .track { fill: #21262d; rx: 4px; }
+    .bar { rx: 4px; }
+    @media (prefers-color-scheme: light) {
+      .card-bg { fill: #ffffff; stroke: #d0d7de; }
+      .label { fill: #1f2328; }
+      .pct { fill: #57606a; }
+      .track { fill: #eaeef2; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="798" height="238" class="card-bg" />
+
+  <!-- Item 1: Estratégia Tecnológica & Alinhamento de Negócios (25%) -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="16" class="label">Estratégia Tecnológica &amp; Alinhamento de Negócios</text>
+    <text x="752" y="16" class="pct">25%</text>
+    <rect x="0" y="24" width="752" height="8" class="track" />
+    <rect x="0" y="24" width="188.0" height="8" fill="url(#grad-strat)" class="bar" />
+  </g>
+
+  <!-- Item 2: Arquitetura de Sistemas & Governança Técnica (25%) -->
+  <g transform="translate(24, 62)">
+    <text x="0" y="16" class="label">Arquitetura de Sistemas &amp; Governança Técnica</text>
+    <text x="752" y="16" class="pct">25%</text>
+    <rect x="0" y="24" width="752" height="8" class="track" />
+    <rect x="0" y="24" width="188.0" height="8" fill="url(#grad-arch)" class="bar" />
+  </g>
+
+  <!-- Item 3: Liderança, Cultura & Gestão de Talentos (20%) -->
+  <g transform="translate(24, 104)">
+    <text x="0" y="16" class="label">Liderança, Cultura &amp; Gestão de Talentos</text>
+    <text x="752" y="16" class="pct">20%</text>
+    <rect x="0" y="24" width="752" height="8" class="track" />
+    <rect x="0" y="24" width="150.4" height="8" fill="url(#grad-people)" class="bar" />
+  </g>
+
+  <!-- Item 4: Infraestrutura Cloud, Segurança & Resiliência (15%) -->
+  <g transform="translate(24, 146)">
+    <text x="0" y="16" class="label">Infraestrutura Cloud, Segurança &amp; Resiliência</text>
+    <text x="752" y="16" class="pct">15%</text>
+    <rect x="0" y="24" width="752" height="8" class="track" />
+    <rect x="0" y="24" width="112.8" height="8" fill="url(#grad-sec)" class="bar" />
+  </g>
+
+  <!-- Item 5: P&D, Inteligência Artificial & Inovação (15%) -->
+  <g transform="translate(24, 188)">
+    <text x="0" y="16" class="label">P&amp;D, Inteligência Artificial &amp; Inovação</text>
+    <text x="752" y="16" class="pct">15%</text>
+    <rect x="0" y="24" width="752" height="8" class="track" />
+    <rect x="0" y="24" width="112.8" height="8" fill="url(#grad-ai)" class="bar" />
+  </g>
+</svg>
